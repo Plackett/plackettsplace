@@ -59,9 +59,9 @@ li {
 
 @font-face {
     font-family: "Myfont";
-    src: url('https://plackett.github.io/plackettsplace/Myfont-Regular.ttf') format("truetype");
+    src: url('${../plackettsplace/Myfont-Regular.ttf}') format("truetype");
     font-family: "oleo";
-    src: url("https://plackett.github.io/plackettsplace/OleoScript-Regular.ttf") format("truetype");
+    src: url("${../plackettsplace/OleoScript-Regular.ttf}") format("truetype");
 }
 
 a:link {
