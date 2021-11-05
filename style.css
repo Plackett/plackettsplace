@@ -60,6 +60,8 @@ li {
 @font-face {
     font-family: "Myfont";
     src: url('Myfont-Regular.ttf') format("truetype");
+    font-family: "oleo";
+    src: url("OleoScript-Regular.ttf") format("truetype");
 }
 
 a:link {
@@ -96,16 +98,24 @@ a:active {
 
 .logo {
     width:50%;
-    margin: 10%;
-    margin-left: 23%;
-    height: 50%;
+    margin: 0%;
+    margin-left: 2%;
+    height: 100%;
+    transform: rotate(5deg);
+}
 
+.logotext {
+    width:50%;
+    margin: 0%;
+    margin-top: -35%;
+    margin-left: 40%;
+    height: 100%;
 }
 
 .top {
 	background: rgba(255,255,255,0.75);
-	border-radius: 15px 15px 0px 0px;
-	font-family: "Myfont", sans-serif;
+	border-radius: 0px 0px 0px 0px;
+	font-family: "oleo", sans-serif;
 	font-size: 300%;
 	text-align: center;
 	width: 80%;
@@ -116,4 +126,20 @@ a:active {
 .main {
 	width: 100%;
 	height: 300%;
+}
+
+footer {
+    font-family: "Myfont", sans-serif;
+    font-size: 300%;
+    text-shadow:
+		1px  1px 0 white,
+		-1px -1px 0 white,  
+		1px -1px 0 white,
+		-1px  1px 0 white,
+		1px  1px 0 white;
+    text-align: center;
+	-webkit-text-stroke: 10% white;
+	-webkit-text-stroke-color: white;
+	-webkit-text-fill-color: black;
+	color: white;
 }
