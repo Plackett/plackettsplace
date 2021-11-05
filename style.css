@@ -59,7 +59,10 @@ li {
 
 @font-face {
     font-family: "Myfont";
-    src: url('Myfont-Regular.ttf') format("truetype");
+    src: url("Myfont-Regular.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "oleo";
     src: url("OleoScript-Regular.ttf") format("truetype");
 }
