@@ -99,19 +99,19 @@ a:active {
     margin-top: 0;
 }
 
-a {
-    color: white;
-	-webkit-text-stroke-color: white;
-	-webkit-text-fill-color: black;
-    text-decoration: none;
-}
-
-#yt a:active, a:visited, a:hover, a:link {
+ /*#yt a:active, a:visited, a:hover, a:link {
     color:white;
     padding-block: 0.5%;
     border-radius: 10%;
     -webkit-text-fill-color: white;
 }
+
+#yt2 a:active, a:visited, a:hover, a:link {
+    color:white;
+    padding-block: 0.5%;
+    border-radius: 10%;
+    -webkit-text-fill-color: white;
+} */
 
 .logo {
     max-width:50%;
