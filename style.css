@@ -160,3 +160,43 @@ footer {
 	-webkit-text-fill-color: black;
 	color: white;
 }
+
+.btn {
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    max-width: 4vw;
+    max-height: 4vw;
+    text-decoration: none;
+    background-color: transparent;
+    color: white !important;
+    border-radius: 1vw;
+    cursor: pointer;
+    -webkit-text-fill-color: white !important;
+    font-size: 0.8vw;
+    transform: scale(0.99);
+
+}
+
+.btn:hover {
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.btn:active {
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+    text-decoration: none;
+    background-color: #282828 !important;
+    color: white !important;
+    border-radius: 1vw;
+    cursor: pointer;
+}
